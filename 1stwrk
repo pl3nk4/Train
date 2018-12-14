@@ -4,6 +4,7 @@
 #include <string.h>
 #include <time.h>
 #include <windows.h>
+#include <locale.h>
 
 using namespace std;
 
@@ -51,7 +52,7 @@ void main(){
 	char otv1[4];
 	char zn[3] = "да";
 
-	setlocale(LC_ALL, "rus");
+	setlocale(LC_ALL, "Russian");
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	count = 0;
